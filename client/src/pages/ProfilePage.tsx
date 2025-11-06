@@ -25,13 +25,13 @@ export default function ProfilePage() {
         <div className="flex items-start gap-6">
           <Avatar className="w-24 h-24">
             <AvatarImage src="" alt="User" />
-            <AvatarFallback className="bg-primary/10 text-primary text-2xl font-semibold">JS</AvatarFallback>
+            <AvatarFallback className="bg-primary/10 text-primary text-2xl font-semibold">RP</AvatarFallback>
           </Avatar>
 
           <div className="flex-1">
             <div className="flex items-start justify-between mb-2">
               <div>
-                <h1 className="text-2xl font-bold text-card-foreground">John Student</h1>
+                <h1 className="text-2xl font-bold text-card-foreground">Rohan Patel</h1>
                 <p className="text-muted-foreground">Computer Science • 3rd Year</p>
               </div>
               <Button variant="outline" size="sm" data-testid="button-edit-profile">

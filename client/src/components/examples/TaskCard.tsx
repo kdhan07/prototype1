@@ -8,8 +8,8 @@ export default function TaskCardExample() {
         title="Design Mobile App UI"
         description="Need a modern, clean UI design for a fitness tracking mobile app. Should include 5-6 screens with Material Design principles."
         category="Design"
-        minBudget={50}
-        maxBudget={100}
+        minBudget={500}
+        maxBudget={1000}
         deadline={new Date(Date.now() + 86400000 * 3)}
         status="open"
         bidCount={5}
@@ -20,8 +20,8 @@ export default function TaskCardExample() {
         title="Math Tutoring - Calculus"
         description="Looking for help with calculus concepts, specifically integration and differentiation. 2 hours per week."
         category="Tutoring"
-        minBudget={20}
-        maxBudget={30}
+        minBudget={200}
+        maxBudget={300}
         deadline={new Date(Date.now() + 86400000)}
         status="in-progress"
         bidCount={8}
@@ -32,8 +32,8 @@ export default function TaskCardExample() {
         title="Digitize Handwritten Notes"
         description="Convert 50 pages of handwritten chemistry notes into typed PDF format with proper formatting."
         category="Data Entry"
-        minBudget={15}
-        maxBudget={25}
+        minBudget={150}
+        maxBudget={250}
         deadline={new Date(Date.now() + 86400000 * 7)}
         status="open"
         bidCount={3}

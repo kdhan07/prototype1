@@ -28,8 +28,8 @@ export default function SkillSwapPage() {
       title: "Design Mobile App UI",
       description: "Need a modern, clean UI design for a fitness tracking mobile app. Should include 5-6 screens with Material Design principles.",
       category: "Design",
-      minBudget: 50,
-      maxBudget: 100,
+      minBudget: 500,
+      maxBudget: 1000,
       deadline: new Date(Date.now() + 86400000 * 3),
       status: "open" as const,
       bidCount: 5,
@@ -39,8 +39,8 @@ export default function SkillSwapPage() {
       title: "Math Tutoring - Calculus",
       description: "Looking for help with calculus concepts, specifically integration and differentiation. 2 hours per week.",
       category: "Tutoring",
-      minBudget: 20,
-      maxBudget: 30,
+      minBudget: 200,
+      maxBudget: 300,
       deadline: new Date(Date.now() + 86400000),
       status: "in-progress" as const,
       bidCount: 8,
@@ -50,8 +50,8 @@ export default function SkillSwapPage() {
       title: "Digitize Handwritten Notes",
       description: "Convert 50 pages of handwritten chemistry notes into typed PDF format with proper formatting.",
       category: "Data Entry",
-      minBudget: 15,
-      maxBudget: 25,
+      minBudget: 150,
+      maxBudget: 250,
       deadline: new Date(Date.now() + 86400000 * 7),
       status: "open" as const,
       bidCount: 3,
@@ -59,9 +59,9 @@ export default function SkillSwapPage() {
   ];
 
   const bids = [
-    { id: "1", bidderName: "Sarah Johnson", bidderRating: 4.8, amount: 75, message: "I have 3 years of UI/UX design experience. I can deliver high-quality mockups within 2 days.", status: "pending" as const },
-    { id: "2", bidderName: "Michael Chen", bidderRating: 4.5, amount: 60, message: "I'm a graphic design student and would love to help with this project.", status: "pending" as const },
-    { id: "3", bidderName: "Emily Brown", bidderRating: 4.9, amount: 85, message: "Professional designer with portfolio. Can start immediately.", status: "pending" as const },
+    { id: "1", bidderName: "Neha Sharma", bidderRating: 4.8, amount: 750, message: "I have 3 years of UI/UX design experience. I can deliver high-quality mockups within 2 days.", status: "pending" as const },
+    { id: "2", bidderName: "Rahul Verma", bidderRating: 4.5, amount: 600, message: "I'm a graphic design student and would love to help with this project.", status: "pending" as const },
+    { id: "3", bidderName: "Kavya Iyer", bidderRating: 4.9, amount: 850, message: "Professional designer with portfolio. Can start immediately.", status: "pending" as const },
   ];
 
   const openTaskDetail = (taskId: string) => {
@@ -132,7 +132,7 @@ export default function SkillSwapPage() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-sm text-muted-foreground">Budget Range</div>
-                <div className="text-xl font-bold text-green-600">$50 - $100</div>
+                <div className="text-xl font-bold text-green-600">₹500 - ₹1000</div>
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Deadline</div>

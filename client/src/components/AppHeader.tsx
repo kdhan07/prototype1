@@ -42,7 +42,7 @@ export function AppHeader({ onMenuClick }: AppHeaderProps) {
         <Link href="/profile">
           <Avatar className="w-8 h-8 cursor-pointer hover-elevate" data-testid="avatar-user">
             <AvatarImage src="" alt="User" />
-            <AvatarFallback className="bg-primary/10 text-primary text-sm font-semibold">JS</AvatarFallback>
+            <AvatarFallback className="bg-primary/10 text-primary text-sm font-semibold">RP</AvatarFallback>
           </Avatar>
         </Link>
       </div>

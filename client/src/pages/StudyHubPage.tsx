@@ -45,9 +45,9 @@ export default function StudyHubPage() {
   ];
 
   const messages = [
-    { id: "1", sender: "Alice Chen", message: "Hey everyone! Ready for today's study session?", timestamp: new Date(Date.now() - 3600000), isOwnMessage: false },
+    { id: "1", sender: "Aarav Gupta", message: "Hey everyone! Ready for today's study session?", timestamp: new Date(Date.now() - 3600000), isOwnMessage: false },
     { id: "2", sender: "You", message: "Yes! I have some questions about the last lecture.", timestamp: new Date(Date.now() - 3000000), isOwnMessage: true },
-    { id: "3", sender: "Bob Wilson", message: "Same here. Can we go over the recursion examples?", timestamp: new Date(Date.now() - 1800000), isOwnMessage: false },
+    { id: "3", sender: "Diya Reddy", message: "Same here. Can we go over the recursion examples?", timestamp: new Date(Date.now() - 1800000), isOwnMessage: false },
   ];
 
   const handleSendMessage = () => {

@@ -11,7 +11,7 @@ export default function TeachersPage() {
   const teachers = [
     {
       id: "1",
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Priya Sharma",
       department: "Computer Science",
       specialization: "AI & Machine Learning",
       status: "free" as const,
@@ -19,7 +19,7 @@ export default function TeachersPage() {
     },
     {
       id: "2",
-      name: "Prof. Michael Chen",
+      name: "Prof. Rajesh Kumar",
       department: "Mathematics",
       specialization: "Calculus & Analysis",
       status: "in-class" as const,
@@ -27,7 +27,7 @@ export default function TeachersPage() {
     },
     {
       id: "3",
-      name: "Dr. Emily Brown",
+      name: "Dr. Anjali Patel",
       department: "Physics",
       specialization: "Quantum Mechanics",
       status: "on-leave" as const,
@@ -35,7 +35,7 @@ export default function TeachersPage() {
     },
     {
       id: "4",
-      name: "Prof. David Wilson",
+      name: "Prof. Arjun Mehta",
       department: "Computer Science",
       specialization: "Data Structures",
       status: "free" as const,
@@ -43,7 +43,7 @@ export default function TeachersPage() {
     },
     {
       id: "5",
-      name: "Dr. Lisa Anderson",
+      name: "Dr. Kavita Iyer",
       department: "Chemistry",
       specialization: "Organic Chemistry",
       status: "free" as const,
@@ -51,7 +51,7 @@ export default function TeachersPage() {
     },
     {
       id: "6",
-      name: "Prof. James Taylor",
+      name: "Prof. Vikram Singh",
       department: "Mathematics",
       specialization: "Linear Algebra",
       status: "in-class" as const,

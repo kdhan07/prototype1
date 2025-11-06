@@ -45,7 +45,7 @@ export function TaskCard({
       <div className="space-y-2 mb-4 text-sm">
         <div className="flex items-center gap-2 text-card-foreground">
           <DollarSign className="w-4 h-4 text-green-600" />
-          <span className="font-medium">${minBudget} - ${maxBudget}</span>
+          <span className="font-medium">₹{minBudget} - ₹{maxBudget}</span>
         </div>
         <div className={`flex items-center gap-2 ${isExpiringSoon ? "text-destructive" : "text-muted-foreground"}`}>
           <Clock className="w-4 h-4" />

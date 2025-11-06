@@ -5,7 +5,7 @@ export default function ChatMessageExample() {
     <div className="p-6 max-w-2xl">
       <ChatMessage
         id="1"
-        sender="Alice Chen"
+        sender="Aarav Gupta"
         message="Hey everyone! Ready for today's study session?"
         timestamp={new Date(Date.now() - 3600000)}
         isOwnMessage={false}
@@ -19,7 +19,7 @@ export default function ChatMessageExample() {
       />
       <ChatMessage
         id="3"
-        sender="Bob Wilson"
+        sender="Diya Reddy"
         message="Same here. Can we go over the recursion examples?"
         timestamp={new Date(Date.now() - 1800000)}
         isOwnMessage={false}

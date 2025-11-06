@@ -5,7 +5,7 @@ export default function TeacherCardExample() {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-6">
       <TeacherCard
         id="1"
-        name="Dr. Sarah Johnson"
+        name="Dr. Priya Sharma"
         department="Computer Science"
         specialization="AI & Machine Learning"
         status="free"
@@ -14,7 +14,7 @@ export default function TeacherCardExample() {
       />
       <TeacherCard
         id="2"
-        name="Prof. Michael Chen"
+        name="Prof. Rajesh Kumar"
         department="Mathematics"
         specialization="Calculus & Analysis"
         status="in-class"
@@ -23,7 +23,7 @@ export default function TeacherCardExample() {
       />
       <TeacherCard
         id="3"
-        name="Dr. Emily Brown"
+        name="Dr. Anjali Patel"
         department="Physics"
         specialization="Quantum Mechanics"
         status="on-leave"
@@ -32,7 +32,7 @@ export default function TeacherCardExample() {
       />
       <TeacherCard
         id="4"
-        name="Prof. David Wilson"
+        name="Prof. Arjun Mehta"
         department="Computer Science"
         specialization="Data Structures"
         status="free"
